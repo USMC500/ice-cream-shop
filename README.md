@@ -1,3 +1,11 @@
+<!-- Menu -->
+
+Considering the menu I wanted more of a "homey" feel so I got the hand written chalk feeling in order to create the illusion of it being more of a mom and pop shop.
+
+<!-- Counter layout -->
+
+I want to make a counter all the way accross the screen maybe with one or two workers on it with one "scooping icecream" or something like that. I can use simple shapes to make most of it and it could work quite well.
+
 <!-- Layout -->
 
 More time and thinking on it the picture I have down works great for a floor but I might be able to get away with making the counter area a container then maybe the roof as another? I think that could look great.
