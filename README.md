@@ -1,3 +1,7 @@
+<!-- thoughts -->
+
+My current thoughts of adding one person maybe even two as emplyees and giving them a fun uniform to help make the image come to life while also adding a banner for them under the register to break up the repitivity of gray.
+
 <!-- Menu -->
 
 Considering the menu I wanted more of a "homey" feel so I got the hand written chalk feeling in order to create the illusion of it being more of a mom and pop shop.

@@ -49,19 +49,88 @@ li {
   padding: 1px;
 }
 
-.counter-con {
-  width: 100%;
+.person {
+  position: absolute;
+  left: 185px;
+}
+#circle {
+  width: 100px;
+  height: 100px;
+  background-image: url(https://img.freepik.com/premium-vector/vector-world-smile-day-yellow-background-with-cartoon-happy-faces_940471-235.jpg?semt=ais_items_boosted&w=740);
+  background-size: contain;
+  border-radius: 50%;
+  z-index: 1;
 }
 
+#oval {
+  width: 100px;
+  height: 200px;
+  background-color: red;
+  background-image: linear-gradient(
+    45deg,
+    white 25%,
+    transparent 25.5%,
+    transparent 50%,
+    white 50.5%,
+    white 75%,
+    transparent 75.5%,
+    transparent
+  );
+  background-size: 20px 20px;
+  border-radius: 50px / 100px;
+  border: 1px solid black;
+  z-index: 1;
+}
+
+.counter-con {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.top {
+  display: flex;
+  width: 100%;
+  /* justify-content: space-between; */
+}
 .register {
   flex: 1;
 }
 
 .counter {
-  flex: 3;
+  width: 100%;
   height: 150px;
-  background-color: rgb(184, 184, 184);
-  border: 1px solid black;
+  background-image: url(https://m.media-amazon.com/images/I/41YSfqv7gHL._AC_UF894,1000_QL80_.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 3% 97%;
+  background-color: #707070;
+  border: 2px solid rgb(134, 134, 134);
+  display: flex;
+  z-index: 10;
+}
+
+.box2 {
+  width: 30px;
+  height: 15px;
+  background-color: rgb(238, 255, 0);
+  border: 2px solid black;
+  color: black;
+  text-align: center;
+  justify-self: center;
+  margin-top: 11px;
+  position: relative;
+}
+.box1 {
+  width: 50px;
+  height: 30px;
+  background-color: rgb(29, 29, 29);
+  justify-self: center;
+  position: relative;
+  /* margin-top: 30px; */
+  /* align-self: flex-end; */
+  /* position: absolute; */
 }
 
 .glass {
@@ -69,10 +138,11 @@ li {
   height: 60px;
   aspect-ratio: 3/2;
   clip-path: polygon(var(--p) 0, calc(100% - var(--p)) 0, 100% 100%, 0 100%);
-  background: #dbe1e3;
+  background: #d8e0e2;
   opacity: 0.75;
   width: 75%;
   justify-self: flex-end;
+  flex: 3;
 }
 
 footer {
